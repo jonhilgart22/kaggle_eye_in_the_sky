@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "kaggle_eye_in_the_sky"
+version = "0.1.0"
+description = ""
+authors = ["Jonathan Hilgart <jonathan.hilgart@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.9"
+
+[tool.poetry.dev-dependencies]
+kaggle = "^1.5.12"
+jupyterlab = "^3.2.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
