@@ -98,6 +98,9 @@ training/data/*
 # MLflow
 mlruns
 
-*.jpg
-*.jpeg
-*.png
+
+*.zip
+
+kaggle
+
+data

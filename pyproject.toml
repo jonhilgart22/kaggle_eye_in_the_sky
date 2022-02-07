@@ -6,10 +6,16 @@ authors = ["Jonathan Hilgart <jonathan.hilgart@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "3.9"
+Shapely = "^1.8.0"
+geojson = "^2.5.0"
+tifffile = "^2022.2.2"
+opencv-python = "^4.5.5"
+tensorflow = "^2.8.0"
 
 [tool.poetry.dev-dependencies]
 kaggle = "^1.5.12"
 jupyterlab = "^3.2.9"
+seaborn = "^0.11.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
